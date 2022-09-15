@@ -41,7 +41,6 @@ const LikeButton = ({ handleLike, handleDislike, likes }: IProps) => {
             <MdFavorite className="text-lg md:text-2xl" />
           </div>
         )}
-
         <p className="text-md font-semibold">{likes?.length | 0}</p>
       </div>
     </div>
